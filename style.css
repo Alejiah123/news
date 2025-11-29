@@ -1,0 +1,322 @@
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.logo img {
+    width: 10rem;
+    height: auto;
+}
+
+.logo h1 {
+    margin-bottom: -10px;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.Hnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    padding: 0.5rem 5%;
+    border-radius: 1rem;
+    width: 99%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+}
+
+.navLeft {
+    display: flex;
+    gap: 4rem;
+}
+
+.navRight {
+    display: flex;
+    gap: 4rem;
+}
+
+.main {
+    display: flex;
+    padding-top: 15rem;
+    margin-bottom: 4rem;
+}
+.content1 {
+    margin-top: 0rem;
+}
+
+.content1 img { 
+    border: solid;
+    width: 35rem;
+    height: 65rem;
+}
+.descript {
+    width: 40%;
+    margin-left: 35rem;
+    position: absolute;
+    top: 16rem;
+    right: 3rem;
+    background-color: rgb(207, 205, 205);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+    border-radius: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+.descript .head {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.descript p {
+    font-size: 1.5rem;
+}
+
+.content2 {
+    margin-bottom: 20rem;
+    
+}
+
+.content2 img { 
+    border: solid;
+    width: 15rem;
+    height: auto;
+    position: absolute;
+    right: 2rem;
+    top: 45rem;
+}
+
+.descript2 {
+    width: 30%;
+    margin-left: 35rem;
+    position: absolute;
+    top: 43rem;
+    right: 18rem;
+}
+
+.descript2 p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.descript21 {
+    width: 46%;
+    margin-left: 35rem;
+    position: absolute;
+    top: 61rem;
+    right: 5.5rem;
+}
+
+.descript21 p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.content3 {
+    display: flex;
+    position: absolute;
+    top: 75rem;
+    right: 9rem; 
+    transition: background-color 0.5s;  
+    gap: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.content3 a {
+    background-color: rgba(0, 0, 0, 0.251);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: color 0.5s;
+    border-radius: 6rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+.content3 a:hover {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 133, 133);
+    transition: 0.2s ease;
+    transform: scale(1.05);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+.content4 {
+    margin-top: 1rem;
+}
+
+.img1 img {
+    border: solid;
+    width: 77.3rem;
+    height: 30rem;
+}
+
+.topic {
+    display: flex;
+    margin-top: 1rem;
+    margin-left:35rem;
+}
+
+.topic p {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descript3 {
+    margin-top: 1rem;
+    background-color: rgb(207, 205, 205);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 44%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+.top1 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: "input num"*/
+}
+
+.descript3 p {
+    text-align: justify;
+}
+
+.one p, .two p {
+    font-size: 1.5rem;
+}
+
+.img2 img {
+    border: solid;
+    width: 15rem;
+    height: auto;
+}
+
+.descript4 {
+    margin-top: 1rem;
+    background-color: rgb(207, 205, 205);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 44%;
+    right: 100rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+.top2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* gap: "input num"*/
+}
+
+.three p {
+    font-size: 1.5rem;
+}
+
+.img3 img {
+    border: solid;
+    width: 15rem;
+    height: auto;
+}
+
+.four p {
+    font-size: 1.5rem;
+}
+
+.content5 {
+    display: flex;
+    transition: background-color 0.5s;  
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.content5 a {
+    background-color: rgba(0, 0, 0, 0.251);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: color 0.5s;
+    border-radius: 6rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+.content5 a:hover {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 133, 133);
+    transition: 0.2s ease;
+    transform: scale(1.05);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+footer {
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.Fnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Fnav a {
+    color: black;
+}
+
+footer img {
+    width: 150px;
+    border: solid;
+    margin: 10px;
+}
